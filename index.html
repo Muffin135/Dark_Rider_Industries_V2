@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+  </head>
+
+  <body class="flex-center">
+    <script>
+      function displayGreeting() {
+        var currentHour = new Date().getHours();
+        if (currentHour < 12) {
+          console.log("Good morning!");
+        } else {
+          console.log("Good day!");
+        }
+      }
+      displayGreeting();
+    </script>
+    <div class="home flex-center">
+      <header class="flex-left">
+        <div class="logo">
+          <img
+            id="logo_img"
+            src="https://www.outsidepride.com/images/products/detail/gardenflower/birdofparadise.jpg"
+          />
+        </div>
+        <h1 class="home_title">DARK RIDER INDUSTRIES</h1>
+
+        <p class="home_byline">
+          Come into my palace, girl. Everything you've ever wanted, <wbr />even
+          if you don't want to stay.
+        </p>
+      </header>
+      <nav class="menu flex-center">
+        <a class="menu-item flex-center">About</a>
+        <a class="menu-item flex-center">News</a>
+        <a class="menu-item flex-center">Events</a>
+        <a class="menu-item flex-center">Store</a>
+        <a class="menu-item flex-center">Artists</a>
+        <a class="menu-item flex-center">Catalogue</a>
+      </nav>
+    </div>
+
+    <main></main>
+    <footer class="flex-center">
+      <div class="footer_section">
+        <h3 class="footer_title">Socials</h3>
+        <ul class="footer_list">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Snapchat</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="footer_section">
+        <h3 class="footer_title">Brand</h3>
+        <ul class="footer_list">
+          <li><a href="#">Visual Guide</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Mission Statement</a></li>
+        </ul>
+      </div>
+      <div class="footer_section">
+        <h3 class="footer_title">Legal</h3>
+        <ul class="footer_list">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Licensing</a></li>
+          <li><a href="#">Trademarks & Copyrights</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="trademark flex-center">
+      COPYRIGHT (c) 2020 DARK RIDER INDUSTRIES
+    </div>
+  </body>
+</html>
